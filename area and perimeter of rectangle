@@ -1,0 +1,6 @@
+length=float(input("enter length of rectangle"))
+width=float(input("enter the with of rectangle"))
+area=length*width
+perimeter=2*(length+width)
+print("area of rectangle",area)
+print("perimeter of rectangle",perimeter)
