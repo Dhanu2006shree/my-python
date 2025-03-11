@@ -1,0 +1,6 @@
+a=int(input("enter the starting range") )
+b=int(input("enter the end range"))
+fact=1
+for i in range(a,b+1):
+ fact=fact*i
+ print(fact)
