@@ -1,0 +1,7 @@
+def fib():
+  a,b = 0,1
+  n=int(input("terms"))
+  for i in range(n):
+    print(a, end=" ")
+    a,b=b,a+b
+fib()
