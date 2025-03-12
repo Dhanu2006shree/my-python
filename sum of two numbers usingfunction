@@ -1,0 +1,4 @@
+def num(a,b):
+  sum=a+b
+  print(sum)
+num(2,4) 
