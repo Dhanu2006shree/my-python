@@ -1,0 +1,4 @@
+list=[2,4,6,4,7]
+print(list)
+list.reverse()
+print(list)
