@@ -1,0 +1,5 @@
+w=[7,4,1,6,9]
+w.sort()
+w
+w.reverse()
+w
