@@ -1,0 +1,8 @@
+a=[1,1,2,5,2,1]
+b=[8,6,7,6,7,6]
+c=a+b
+print("merged list is",c)
+c=set(c)
+c=(list(c))
+print("unique list is",c)
+
