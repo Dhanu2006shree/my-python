@@ -1,0 +1,5 @@
+list=[1,4,7,3,9]
+list.remove(7)
+list
+list.pop(3)
+list
