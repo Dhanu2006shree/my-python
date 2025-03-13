@@ -1,0 +1,5 @@
+list=[7,6,5,4,3]
+min_element=min(list)
+max_element=max(list)
+print("min element is",min_element)
+print("max element is", max_element)
