@@ -1,0 +1,10 @@
+class circle:
+  def __init__ (self,radius):
+    self.radius=radius
+  def area(self):
+       print(f"area of circle is{self.area}")
+       return 3.14*int(self.radius)*int(self.radius)
+circle1 = circle(5)
+circle1.area()
+
+
