@@ -1,0 +1,9 @@
+class cyber:
+  def dhanu(self):
+    print("i am a girl")
+class harshi(cyber):
+  def nisha(self):
+    print("i am also girl")
+
+mona=harshi()
+mona.nisha()        
