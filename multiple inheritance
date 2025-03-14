@@ -4,7 +4,7 @@ class a:
 
 class b:
   def harshi(self):
-    print("i am from kunial")
+    print("i am from kunigal")
 
 class c(a,b):
   pass
