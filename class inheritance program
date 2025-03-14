@@ -1,0 +1,22 @@
+class animal:
+  def __init__(self,name,species):
+    self.name=name
+    self.species=species
+
+  def speak(self):
+    print(f"the {self.name} make a sound")
+class dog(animal):
+  def __init__(self,name,breed,school_level):
+    super().__init__(name,species="dog")
+    self.breed=breed
+    self.school_level=school_level
+
+  def speak(self):
+    print(f"{self.name} the {self.breed} says woof!")
+
+  def school_level(self):
+    print(f"{self.name} is at {self.school_level} level in training")
+
+my_dog=dog("rex","german shepherd","intermediate")
+my_dog.speak()
+my_dog._school_level()
