@@ -1,0 +1,16 @@
+class bank:
+  def __init__(self,balance):
+    self.balance=balance
+  def invest(self,amount):
+    self.balance+=amount
+    print(f"current balance{self.balance}")
+  def withdraw(self,amount):
+    if amount<=self.balace:
+      self.balance-=amount
+      print(f"current balance{self.balance}")
+    else:
+        print("no banalance")
+
+obj=bank(1000)
+obj.invest(500)
+
