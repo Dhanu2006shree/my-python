@@ -1,0 +1,13 @@
+# inheritance vehicle
+class bike:
+  def bike(self):
+    print("bullet cost 400000")
+class car:
+  def car(self):
+    print("car cost is 1000000")
+class jeep(bike,car):
+  pass
+ 
+vehicle=car()
+vehicle.car()
+
