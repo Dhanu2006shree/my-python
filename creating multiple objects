@@ -1,0 +1,14 @@
+# multipple inheritance
+class cars:
+  def thar(self):
+    print("its cost is 100000 and its milage is 200km/h")
+
+class bike:
+  def ktm(self):
+    print("its cost is 200000 and its milage is 60km/h")
+
+class Vehicles(cars,bike):
+    pass
+
+obj=Vehicles()
+obj.thar()
