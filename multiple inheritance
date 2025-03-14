@@ -1,0 +1,13 @@
+class a:
+  def dhanu(self):
+    print("i am from davanagere")
+
+class b:
+  def harshi(self):
+    print("i am from kunial")
+
+class c(a,b):
+  pass
+
+obj=c()
+obj.dhanu()       
