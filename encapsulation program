@@ -1,0 +1,11 @@
+#encapsulation
+class bank:
+  def __init__(self):
+    self.balance= "0"
+    self.__name="dhanu"
+  def sum_private(self):
+    print(self.__name)
+harshi=bank()
+print(harshi.balance)
+harshi.sum_private()
+    
