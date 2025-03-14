@@ -1,0 +1,6 @@
+class person:
+  def dhanu(self):
+    print(f"my name is {self.name}")
+person1=person()
+person1.name="naadhi"
+person1.dhanu()    
