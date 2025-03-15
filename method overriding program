@@ -1,0 +1,15 @@
+class cyber:
+  def girls(self):
+    print("girls who are all comitted")
+class dhanu(cyber):
+  def girls(self):
+    print("she is comitted")
+class harshi(cyber):
+  def girls(self):
+    print("she s not comitted")
+
+siet=dhanu()
+siet.girls()       
+
+
+  
